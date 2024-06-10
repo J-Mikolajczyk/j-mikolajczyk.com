@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 function Footer() {
 
   return (
@@ -8,11 +6,11 @@ function Footer() {
         <div class="container horizontal footer">
             <div class="footer-item">
                 <a class="footer-link" href="https://www.netlify.com" target="_blank">Netlify</a>
-                <img src="./assets/netlify-logo.png" width="25" height="25"></img>
+                <img src="src\assets\netlify-logo.png" width="25" height="25"></img>
             </div>
             <div class="footer-item">
                 <a class="footer-link" href="https://github.com/" target="_blank">GitHub</a>
-                <img src="./assets/github-mark-white.png" width="25" height="25"></img>
+                <img src="src\assets\github-mark-white.png" width="25" height="25"></img>
             </div>
         </div>
     </footer>

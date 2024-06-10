@@ -1,14 +1,38 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Header from './Header.jsx'
-import Home from './Home.jsx'
-import Footer from './Footer.jsx'
-import './index.css'
+// main.jsx
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom/client';
+import Header from './Header';
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
+import Footer from './Footer';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Header />
-    <Home />
-    <Footer />
-  </React.StrictMode>,
-)
+const Main = () => {
+  const [currentPage, setCurrentPage] = useState('home');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'home':
+        return <Home />;
+      case 'about':
+        return <About />;
+      case 'projects':
+        return <Projects />;
+      default:
+        return <Home />;
+    }
+  };
+
+  return (
+    <React.StrictMode>
+      <Header onNavigate={setCurrentPage} />
+      <main>
+        {renderPage()}
+      </main>
+      <Footer />
+    </React.StrictMode>
+  );
+};
+
+ReactDOM.createRoot(document.getElementById('root')).render(<Main />);

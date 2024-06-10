@@ -1,19 +1,19 @@
-import { useState } from 'react'
-
-function Header() {
+// Header.jsx
+function Header({ onNavigate }) {
+  const openGitHub = () => {
+    window.open('https://github.com/j-mikolajczyk', '_blank', 'noopener,noreferrer');
+  };
 
   return (
-    <>
-      <header>
-        <div class="horizontal container navigation">
-            <button id="home-button" class="nav-button">Home</button>
-            <button id="about-button" class="nav-button">About</button>
-            <button id="projects-button" class="nav-button">Projects</button>
-            <button id="github-button" class="nav-button">GitHub</button>
-        </div>
-      </header>
-    </>
-  )
+    <header>
+      <div className="horizontal container navigation">
+        <button className="nav-button" onClick={() => onNavigate('home')}>Home</button>
+        <button className="nav-button" onClick={() => onNavigate('about')}>About</button>
+        <button className="nav-button" onClick={() => onNavigate('projects')}>Projects</button>
+        <button className="nav-button" onClick={openGitHub}>GitHub</button>
+      </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
