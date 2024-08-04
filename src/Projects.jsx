@@ -21,10 +21,9 @@ function Projects() {
             </div>
             <div class="project-card">
                    <h3 class="project-title">Pokemon Sprite Fetcher</h3>
-                <p class="project-desc">A simple web application to fetch and display a Pokémon's sprite using PokeAPI.</p>
+                <p class="project-desc">A simple chrome extension to fetch and display a Pokémon's sprite using PokeAPI.</p>
                 <div class="horizontal container project-button-container">
                 <button class="project-button" onClick={() => openLink('https://github.com/j-mikolajczyk/pokemon-fetch')}>Source</button>
-                <button class="project-button" onClick={() => openLink('https://j-mikolajczyk.github.io/pokemon-fetch/')}>Demo</button>
                     </div>
             </div>
             <div class="project-card">
