@@ -40,6 +40,13 @@ function Projects() {
                 <button class="project-button" onClick={() => openLink('https://github.com/j-mikolajczyk/motion-detection-system')}>Source</button> 
                     </div>
             </div>
+            <div class="project-card">
+                   <h3 class="project-title">NBA Bid Data Analysis</h3>
+                <p class="project-desc">An Apache Spark program to calculate NBA "clutch" scores.</p>
+                <div class="horizontal container project-button-container">
+                <button class="project-button" onClick={() => openLink('https://github.com/J-Mikolajczyk/NBA-Big-Data')}>Source</button> 
+                    </div>
+            </div>
         </div>
     
     </div>
