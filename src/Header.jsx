@@ -7,7 +7,6 @@ function Header({ onNavigate }) {
   return (
     <header>
       <div className="horizontal container navigation">
-        <button className="nav-button" onClick={() => onNavigate('home')}>Home</button>
         <button className="nav-button" onClick={() => onNavigate('about')}>About</button>
         <button className="nav-button" onClick={() => onNavigate('projects')}>Projects</button>
         <button className="nav-button" onClick={openGitHub}>GitHub</button>
