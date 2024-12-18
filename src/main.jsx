@@ -9,12 +9,10 @@ import Footer from './Footer';
 import './index.css';
 
 const Main = () => {
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState('about');
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'home':
-        return <Home />;
       case 'about':
         return <About />;
       case 'projects':
