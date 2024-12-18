@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './Header';
-import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Footer from './Footer';
