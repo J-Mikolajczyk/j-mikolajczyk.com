@@ -20,6 +20,7 @@ function Projects() {
                 <h3 class="project-title">Momentum</h3>
                 <p class="project-desc">A Java Spring Boot application for tracking strength training.</p>
                 <div class="horizontal container project-button-container">
+                    <button class="project-button" onClick={() => openLink('https://training-momentum.com/')}>Site</button> 
                     <button class="project-button" onClick={() => openLink('https://github.com/J-Mikolajczyk/Momentum')}>Source</button> 
                 </div>
             </div>
