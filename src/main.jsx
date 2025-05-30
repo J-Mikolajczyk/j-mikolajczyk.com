@@ -12,12 +12,10 @@ const Main = () => {
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'about':
-        return <About />;
       case 'projects':
         return <Projects />;
       default:
-        return <Home />;
+        return <About />;
     }
   };
 
