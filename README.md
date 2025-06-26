@@ -14,7 +14,7 @@ This is a simple single-page application (SPA) built with **React**, designed to
 
 [Visit the live site](https://j-mikolajczyk.com)  
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **React** 
 - **JavaScript (ES6+)**
