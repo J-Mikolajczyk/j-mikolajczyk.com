@@ -9,8 +9,14 @@ function Projects() {
             link: 'https://github.com/j-mikolajczyk/j-mikolajczyk.com'
         },
         {
+            title: 'That One Gym',
+            desc: 'A website for locating gyms in your area based on equipment availability.',
+            link: 'https://github.com/J-Mikolajczyk/That-One-Gym',
+            site: 'https://thatonegym.com/'
+        },
+        {
             title: 'Momentum',
-            desc: 'A full stack progresive web application for tracking strength training.',
+            desc: 'A full stack web application for tracking strength training.',
             link: 'https://github.com/J-Mikolajczyk/Momentum',
             site: 'https://training-momentum.com/'
         },
