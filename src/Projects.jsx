@@ -44,20 +44,20 @@ function Projects() {
 
   return (
     <>
-        <div class="container vertical"> 
-        <h1>Projects</h1>
-        <div class="container project-container">
+        <div className="container vertical"> 
+          <h1>Projects</h1>
+          <div className="container project-container">
             {projects.map((proj, index) => (
-                <Card 
-                    key={index}
-                    title={proj.title} 
-                    desc={proj.desc} 
-                    link={proj.link} 
-                    site={proj.site} 
-                />
+              <Card 
+                key={index}
+                title={proj.title} 
+                desc={proj.desc} 
+                link={proj.link} 
+                site={proj.site} 
+              />
             ))}
+          </div>
         </div>
-    </div>
     </>
   )
 }
