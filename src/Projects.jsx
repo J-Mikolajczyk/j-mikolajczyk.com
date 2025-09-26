@@ -17,8 +17,7 @@ function Projects() {
         {
             title: 'Momentum',
             desc: 'A full stack web application for tracking strength training.',
-            link: 'https://github.com/J-Mikolajczyk/Momentum',
-            site: 'https://training-momentum.com/'
+            link: 'https://github.com/J-Mikolajczyk/Momentum'
         },
         {
             title: 'Pokemon Sprite Fetcher',
